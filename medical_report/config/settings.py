@@ -19,17 +19,21 @@ DATABASES = {
 # 日志配置
 LOGGING_LEVEL = 'DEBUG'
 
+#
+
 
 # 路径配置
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
 # 邮件配置
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.exmail.qq.com'
+EMAIL_PORT = 465
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'myemail@gmail.com'
-EMAIL_HOST_PASSWORD = 'mypassword'
+EMAIL_HOST_USER = 'mt-op@novogene.com'
+EMAIL_HOST_PASSWORD = 'Novo1234'
 
-#
+# 数据库路径
+DATABASES_PATH = "/TJPROJ6/PG/pipeline/databases/WES_disease"
+

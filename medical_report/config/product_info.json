@@ -1,4 +1,22 @@
-# 需要的模块
+{
+  "CYB21040015":
+      {
+        "Custom": "True",
+        "Logo": "False",
+        "CNV": "True",
+        "MT": "True",
+        "Couple": "False",
+        "name": "zhide"
+      },
 
-#
+  "CYB00000001":
+      {
+        "Custom": "True",
+        "Logo": "False",
+        "CNV": "True",
+        "MT": "True",
+        "Couple": "False",
+        "name": "novo"
+      }
 
+}
